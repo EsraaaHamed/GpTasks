@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HallDetailes</string>
+    <string name="action_settings">Settings</string>
+    <string name="floor_number">Floor Number</string>
+    <string name="building_number">Building Number</string>
+    <string name="hall_capacity">Hall Capacity</string>
+    <string name="notes_header">Notes :</string>
+    <string name="notes_example">Hall is for workshop only, it can not covers conferences</string>
+    <string name="hallname_example">Hall Name</string>
+</resources>
