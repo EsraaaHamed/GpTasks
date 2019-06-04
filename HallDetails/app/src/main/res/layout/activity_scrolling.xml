@@ -25,7 +25,7 @@
 `           <ImageView
             android:id="@+id/bookImageInDetailesActivity"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="wrap_content"
             app:layout_collapseMode="parallax"
             android:src="@drawable/hallimge"
             android:clickable="true"
@@ -35,10 +35,13 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 android:layout_marginRight="10dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
                 android:text="@string/hallname_example"
+                android:background="@color/transpaertnColor"
                 android:textColor="@color/colorSecondary"
                 android:textSize="20sp"
                 android:textStyle="bold"
